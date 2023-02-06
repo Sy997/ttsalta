@@ -1,0 +1,109 @@
+.provideindex {
+    display: flex;
+        
+        .navindex {
+            width: 20%;
+            position: fixed;
+        }
+
+        .mainindex {
+            width: 78.9%;
+            position: relative;
+            left: 20%;
+            padding-left: 15px;
+            padding-top: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            background-color: darkgray;
+
+            .headindex {
+                display: flex;
+                align-items: flex-start;
+                justify-content: flex-start;
+
+                .infoindex {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    position: absolute;
+                    right: 35px;
+
+                    .nameindex {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        margin-left: 1rem;
+
+                        img {
+                            width: 40px;
+                            height: 40px;
+                            border-radius: 50%;
+                            
+                        }
+                    }
+                }
+            }
+
+            .bodyindex {
+                
+                .checksindex {
+                    display: flex;
+
+                    .checkindex {
+                        display: flex;
+                        flex-direction: column;
+                        margin: 0.5rem;
+
+                        &.checkindex1 {
+                            margin-left: 0;
+                        }
+
+                        select {
+                            width: 130px;
+                            height: 40px;
+                            border: 1px solid black;
+                            border-radius: 6px;
+                        }
+
+                        .searchindex {
+                            width: 200px;
+                            height: 35px;
+                        }
+
+                        .input {
+                            width: 130px;
+                            height: 35px;
+                            border: 1px solid black;
+                            border-radius: 6px;
+                        }
+                    }
+                }
+
+                .tabindex {
+                    width: 100%;
+                    height: 400px;
+                    display: flex;
+                    margin-top: 1rem;
+                    margin-right: 1rem;
+                    a {
+                        width: 60px;
+                        height: 60px;
+                        padding: 10px;
+                        background: orange;
+                        font-size: 15px;
+                        justify-content: center;
+                        align-items: center;
+                        display: flex;
+                        flex-direction: column;
+                        text-align: center;
+                        text-decoration: none;
+                        margin-top: 0;
+                        margin-left: 0.5rem;
+                        border-bottom-left-radius: 5px;
+                        border-top-left-radius: 5px;
+                    }
+                }
+            }
+        }
+    }

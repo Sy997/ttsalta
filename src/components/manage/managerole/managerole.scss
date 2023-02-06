@@ -1,0 +1,95 @@
+.manageRole {
+    display: flex;
+    .navrole {
+        width: 20%;
+    }
+
+    .mainrole {
+        padding-left: 15px;
+        padding-right: 0;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        background: white;
+        background-color: darkgray;
+        min-height: 100vh;
+
+        .headrole {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+
+            .inforole {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: absolute;
+                right: 35px;
+
+                .alertrole {
+                    padding: 5px;
+                    background-color: orange;
+                    border-radius: 50%;
+                    cursor: pointer;
+                }
+
+                .namerole {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    
+                    img {
+                        width: 40px;
+                        height: 40px;
+                        border-radius: 50%;
+                        margin-left: 1rem;
+                        margin-right: 0.5rem;
+                    }
+                }
+            }
+        }
+
+        .fields {
+            display: flex;
+            align-items: flex-start;
+            justify-content: flex-start;
+
+            .searchrole {
+                position: absolute;
+                right: 90px;
+
+                .search {
+                    height: 40px;
+                    margin-top: 0.5rem;
+                }
+            }
+        }
+
+        .datarole {
+            width: 100%;
+            height: 300px;
+            display: flex;
+            margin-top: 1rem;
+            margin-right: 1rem;
+            margin-bottom: 0.5rem;
+
+                a {
+                    width: 60px;
+                    height: 60px;
+                    padding: 10px;
+                    background: orange;
+                    font-size: 15px;
+                    justify-content: center;
+                    align-items: center;
+                    display: flex;
+                    flex-direction: column;
+                    text-align: center;
+                    text-decoration: none;
+                    margin-top: 0;
+                    margin-left: 0.5rem;
+                    border-bottom-left-radius: 5px;
+                    border-top-left-radius: 5px;
+                }
+            }
+        }       
+    }

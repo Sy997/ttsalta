@@ -1,0 +1,109 @@
+.devices {
+    display: flex;
+    .navde {
+        width: 20%;
+    }
+
+    .mainde {
+        padding-left: 15px;
+        padding-right: 0;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        background: white;
+        background-color: darkgray;
+
+        .headde {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+
+            .infode {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: absolute;
+                right: 35px;
+
+                .alertde {
+                    padding: 5px;
+                    background-color: orange;
+                    border-radius: 50%;
+                    cursor: pointer;
+                }
+
+                .namede {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    
+                    img {
+                        width: 40px;
+                        height: 40px;
+                        border-radius: 50%;
+                        margin-left: 1rem;
+                        margin-right: 0.5rem;
+                    }
+                }
+            }
+        }
+        .listde {
+
+            .selectsde {
+                display: flex;
+
+                .selectde {
+                    display: flex;
+                    
+
+                    .boxde {
+                        margin-top: 0.5rem;
+                        width: 250px;
+                        height: 40px;
+                        background-color: white;
+                        border-radius: 5px;
+                    } 
+                    
+                 }
+
+                 .boxde {
+                    margin-top: 0.5rem;
+                    width: 250px;
+                    height: 40px;
+                    background-color: white;
+                    border-radius: 5px;
+                    margin-right: 4.2rem;
+                 }
+
+            }
+        }
+        .datasde {
+            width: 100%;
+            display: flex;
+            margin-top: 0.5rem;  
+            
+            .datade {
+                width: 100%;
+            }
+
+            .adddev {
+                width: 60px;
+                height: 60px;
+                padding: 10px;
+                background: orange;
+                font-size: 15px;
+                justify-content: center;
+                align-items: center;
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+                text-decoration: none;
+                margin: auto;
+                margin-top: 0;
+                margin-left: 0.5rem;
+                border-bottom-left-radius: 5px;
+                border-top-left-radius: 5px;
+            }
+        }
+    }
+}

@@ -1,0 +1,91 @@
+.navbardb {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+    position: relative;
+
+    .logonavbar {
+        width: 100%;
+        height: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: orange;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .navbarul {
+        height: 450px;
+        display: flex;
+        align-items: flex-start;        
+        flex-direction: column;
+        
+        span {
+            box-sizing: border-box;
+            width: 100%;
+            padding: 7px 15px;
+            cursor: pointer;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+
+            a{
+                text-decoration: none;
+                color: black
+            }
+        }
+
+        span:hover {
+            background-color: orange;
+        }
+
+        .handledrop:hover + .dropdown {
+            display: block;
+        }
+
+        .dropdown {
+            z-index: 3;
+            position: absolute;
+            display: none;
+            list-style: none;
+            left: 230px;
+            top: 400px;
+            z-index: 10000;
+
+            li {
+                display: flex;
+                align-items: flex-start;
+                justify-content: flex-start;
+                text-align: start;
+                padding: 5px 10px;
+                width: 200px;
+                height: 34px;
+                background-color: orange;
+                border-bottom: 1px solid black;
+
+                a {
+                    text-decoration: none;
+                    color: black
+                }
+            }
+        }
+
+        .buttonnavbar {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            bottom: 20px;
+            border-radius: 6px;
+            width: 90%;
+            left: 0.5rem;
+            border: none;
+            background-color: orange;
+            cursor: pointer;
+        }
+    }   
+}

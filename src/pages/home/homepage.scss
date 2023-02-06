@@ -1,0 +1,30 @@
+.homepage {
+    display: flex;
+    height: 100%;
+    
+    .lefthome {
+        width: 20%;
+        position: fixed;
+    }
+
+    .middlehome {
+        position: absolute;
+        left: 20%;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        width: 50%;
+        z-index: -1;
+        background-color: rgb(247, 241, 241);
+
+        .widgets {
+            display: flex;
+        }
+    }
+
+    .righthome {
+        width: 27%;
+        background-color: white;
+        position: absolute;
+        left: 73%;
+    }
+}

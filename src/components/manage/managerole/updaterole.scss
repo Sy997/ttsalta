@@ -1,0 +1,135 @@
+.roleup {
+    display: flex;
+    .navroleup {
+        width: 20%;
+    }
+
+    .mainroleup {
+        display: flex;
+        padding-left: 15px;
+        padding-bottom: 15px;
+        padding-right: 15px;
+        flex-direction: column;
+        position: relative;
+        left: 20%;
+        background-color: darkgray;
+        width: 77.8%;
+        max-height: 99vh;
+        overflow: hidden;
+
+        .headroleup {
+            display: flex;
+
+            .inforoleup {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: absolute;
+                right: 35px;
+                
+                .nameroleup {
+                    margin-left: 1rem;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    max-height: 0;
+
+                    img {
+                        margin-right: 0.5rem;
+                        width: 40px;
+                        height: 40px;
+                        border-radius: 50%;
+                    }
+                }
+            }
+        }
+
+        .bodyroleup {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: flex-start;
+            width: 98%;
+            padding-right: 10px;
+
+            .fields {
+
+                width: 100%;
+                padding-right: 10px;
+
+                .forms {
+                    width: 100%;
+                    
+
+                    .fieldbac {
+                        width: 100%;
+                        background-color: white;
+                        padding: 10px;
+                        padding-top: 0;
+                        border-radius: 6px;
+
+                        .field {
+                            display: flex;
+
+                            .left {
+                                width: 50%;
+                                padding-left: 10px;
+                                padding-right: auto;
+
+                                input {
+                                    width: 90%;
+                                    height: 40px;
+                                    border-radius: 6px;
+                                    border: 1px solid black;
+                                    margin-top: 0.5rem;
+                                }
+                                .descrb {
+                                    margin-top: 0.5rem;
+
+                                    textarea {
+                                        width: 90%;
+                                        height: 100px;
+                                        border-radius: 7px;
+                                        margin-top: 0.5rem;
+                                    }
+                                }
+                            }
+
+                            .right {
+                                width: 50%;
+                                
+                                border-radius: 6px;
+                                padding-left: 5px;
+                                padding-bottom: 5px;
+                                margin-top: -1rem;
+
+                                .func {
+                                    background-color: plum;
+                                    border-radius: 6px;
+                                    margin-top: -0.5rem;
+                                    padding-top: 10px;
+                                    padding-bottom: 10px;
+                                    padding-left: 10px;
+                                }
+                            }
+                        }
+                    }
+                    .buttonuprole {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+    
+                        button {
+                            width: 150px;
+                            height: 50px;
+                            border: none;
+                            border-radius: 5px;
+                            margin: 1rem;
+                            margin-bottom: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

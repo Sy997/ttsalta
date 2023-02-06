@@ -1,0 +1,139 @@
+.provideupindex {
+    display: flex;
+
+    .navupindex {
+        z-index: 2;
+        width: 20%;
+        position: fixed;
+    }
+
+    .mainupindex {
+        z-index: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        width: 77.8%;
+        position: relative;
+        left: 20%;
+        padding-left: 15px;
+        padding-right: 15px;
+        background-color: darkgray;
+        height: 100vh;
+
+        .headupindex {
+            display: flex;
+            
+            .infoupindex {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: absolute;
+                right: 35px;
+
+                .nameupindex {
+                    margin-left: 1rem;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    
+
+                    img {
+                        margin-right: 0.5rem;
+                        width: 40px;
+                        height: 40px;
+                        border-radius: 50%;
+                    }
+                }
+            }
+        }
+
+        .bodyupindex {
+            margin-top: 1rem;
+            display: flex;
+            flex-direction: column;
+            width: 99%;
+            -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+            box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+            background-color: wheat;
+            border-radius: 6px;
+            padding-left: 15px;
+            height: 85vh;
+            overflow: hidden;
+            
+            .forms {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                
+
+                select {
+                    width: 400px;
+                    height: 50px;
+                    margin-top: 1rem;
+                    margin-bottom: 2rem;
+                    border-radius: 6px;
+                }
+
+                .buttonindex {                   
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin: 1rem;
+
+                    p {
+                        width: 150px;
+                        height: 50px;
+                        border-radius: 6px;
+                        border: 1px solid orange;
+                        margin: 1rem;
+                        margin-top: 0;
+                        margin-bottom: 0;
+                        cursor: pointer;
+                        text-align: center;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                    }
+                }
+            }
+            .numberindex {
+                display: none;
+                text-align: center;
+                background-color: white;
+                bottom: 250px;
+                left: 300px;
+                width: 400px;
+                height: 500px;
+                border-radius: 10px;
+                z-index: 2;
+                position: relative;
+                
+
+                .closeindex {
+                    width: 760px;
+                    display: flex;
+                    justify-content: flex-end;
+                    align-items: flex-end;
+                    cursor: pointer;
+                }
+
+                .daterange {
+                    width: 100%;
+                    height: 80px;
+
+                    // display: flex;
+                    // justify-content: center;
+                    // align-items: center;
+                    // flex-direction: column;
+                    text-align: center;
+                    background-color: orange;
+                    border-bottom-right-radius: 10px;
+                    border-bottom-left-radius: 10px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,163 @@
+.updateservice {
+    display: flex;
+
+    .navupser {
+        width: 20%;
+        position: fixed;
+    }
+
+    .mainupser {
+        z-index: -1;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        width: 77.8%;
+        position: relative;
+        left: 20%;
+        padding-left: 15px;
+        padding-right: 15px;
+        background-color: darkgray;
+        
+
+        .headupser {
+            display: flex;
+            
+            .infoupser {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: absolute;
+                right: 35px;
+
+                .nameupser {
+                    margin-left: 1rem;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    img {
+                        margin-right: 0.5rem;
+                        width: 40px;
+                        height: 40px;
+                        border-radius: 50%;
+                    }
+                }
+            }
+        }
+        .formupfields {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            width: 100%;
+            
+
+            .formsup {
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                
+
+                .fieldsupser {
+                    display: flex;
+                    flex-direction: column;
+                    -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+                    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+                    padding-left: 10px;
+                    padding-right: 10px;
+                    border-radius: 10px;
+                    background-color: aliceblue;
+                    
+
+                    .fieldser {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        
+                        .leftupser {
+
+                            .input {
+                                display: flex;
+                                flex-direction: column;
+                                align-items: flex-start;
+                                justify-content: flex-start;
+                                margin: 1rem;
+                                margin-top: 0.5rem;
+
+                                input {
+                                    width: 470px;
+                                    height: 30px;
+                                    border-radius: 7px;
+                                    border: 1px solid black;
+                                    margin-top: 0.3rem;
+                                    padding-left: 6px;
+                                }
+                            }
+                        }
+                                        
+                        .rightupser {
+                            display: flex;
+                            flex-direction: column;
+                            margin-top: -0.4rem;
+
+                            textarea {
+                                width: 470px;
+                                height: 115px;
+                                border-radius: 7px;
+                                margin-top: 0.3rem;
+                                padding-left: 6px;
+                            }
+                        }
+                    }
+                    .checksupser {
+                        display: flex;
+                        flex-direction: column;
+
+        
+                        .checkupser {
+                            display: flex;
+                            margin-bottom: 0.6rem;
+                            align-items: center;
+                            justify-content: flex-start;
+
+                            div {
+                                min-width: 200px;
+                            }
+
+                            span{
+                                padding-right: 5px;
+                                padding-left: 5px;
+                            }
+                            
+                            .numbercheck {
+                                border: 1px solid black;
+                                border-radius: 5px;
+                                width: 70px;
+                                height: 40px;
+                                text-align: center;
+                            }
+                        }
+                    }
+                }
+
+                .buttonupser {                   
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin: 1rem;
+
+                    button {
+                        width: 150px;
+                        height: 50px;
+                        border-radius: 6px;
+                        border: 1px solid orange;
+                        margin: 1rem;
+                        margin-top: 0;
+                        margin-bottom: 0;
+                    }
+                }
+            }
+        }
+    }
+}

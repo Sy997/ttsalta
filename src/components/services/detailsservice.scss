@@ -1,0 +1,190 @@
+.detailsserv {
+    display: flex;
+
+    .navdetails {
+        width: 20%;
+        position: fixed;
+    }
+
+    .maindetails {
+        z-index: -1;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        width: 78.9%;
+        position: relative;
+        left: 20%;
+        padding-left: 15px;
+        background-color: darkgray;
+        min-height: 100vh;
+        overflow: hidden;
+        
+        
+
+        .headdetails {
+            display: flex;
+            
+            .infodetails {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: absolute;
+                right: 35px;
+
+                .namedetails {
+                    margin-left: 1rem;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    img {
+                        margin-right: 0.5rem;
+                        width: 40px;
+                        height: 40px;
+                        border-radius: 50%;
+                    }
+                }
+            }
+        }
+
+        .bodydetails {
+            width: 100%;
+            padding-left: 10px;
+            font-size: 16px;
+            
+
+            .leftright {
+
+                display: flex;
+            .leftdetail {
+                width: 30%;
+                background-color: aliceblue;
+                margin-right: 0.6rem;
+                border-radius: 8px;
+                padding: 10px;
+                height: 450px;
+
+                .incredetail {
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: center;
+
+                    &.in1 {
+                        
+                        .input1 {
+                            position: absolute;
+                            left: 150px;
+                            align-items: center;
+                            border-radius: 5px;
+                            border: 1px solid black
+                        }
+
+                        span {
+                            position: absolute;
+                            left: 210px;
+                        }
+                        .input2 {
+                            position: absolute;
+                            left: 250px;
+                            align-items: center;
+                            border-radius: 5px;
+                            border: 1px solid black
+                        }
+                    }
+                    &.in2 {
+                        margin-top: 0.7rem;
+
+                        input {
+                            position: absolute;
+                            left: 150px;
+                            align-items: center;
+                            border-radius: 5px;
+                            border: 1px solid black
+                        }
+                    }
+                    input {
+                        width: 40px;
+                        height: 25px;
+                    }
+                }
+            }
+
+            .rightdetail {
+                background-color: aliceblue;
+                height: 450px;
+                width: 60%;
+                border-radius: 8px;
+                padding: 10px;
+
+                .headline {
+                    display: flex;
+                .status {
+                    margin-right: 0.8rem;
+                
+                    select {
+                        margin-top: 0.4rem;
+                        width: 150px;
+                        height: 43px;
+                        border-radius: 6px;
+                        border: 1px solid black;
+                    }
+                }
+                .timeline {
+                    margin-right: 0.8rem;
+                
+                    .input {
+                        margin-top: 0.4rem;
+                        width: 100px;
+                        height: 40px;
+                        border-radius: 6px;
+                        border: 1px solid black;
+                    }
+                }
+
+                .searchdetail {
+                    width: 200px;
+                    height: 40px;
+                    margin-top: 0.4rem;
+                }
+            }
+            .tabdetail {
+                font-size: 16px;
+                height: 340px;
+                margin-top: 0.8rem;
+                background-color: whitesmoke;
+
+                .data {
+                    font-size: 16px;
+                    scroll-behavior: none;
+                }
+            }
+        }
+        .buttonup {
+
+            a {
+                width: 60px;
+                height: 60px;
+                padding: 10px;
+                background: orange;
+                font-size: 12px;
+                justify-content: center;
+                align-items: center;
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+                text-decoration: none;
+                margin-top: 0;
+                margin-left: 0.5rem;
+                border-bottom-left-radius: 5px;
+                border-top-left-radius: 5px;
+
+                &.a2 {
+                    margin-top: 0.5rem;
+                }
+            }
+        }
+        }
+        }
+    }
+}
